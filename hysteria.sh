@@ -175,7 +175,7 @@ masquerade:
   forceHTTPS: true
 EOF
 
-chmod 600 "$CONFIG"
+chmod 644 "$CONFIG"
 
 cat > "$SYSCTL" <<'EOF'
 net.core.rmem_max=16777216
